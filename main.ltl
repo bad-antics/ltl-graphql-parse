@@ -1,0 +1,15 @@
+// ltl-graphql-parse/main.ltl
+//
+// GraphQL document parser — operations, fragments, directives.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-graphql-parse v0.1.0")
+    io::println("GraphQL document parser — operations, fragments, directives.")
+    0
+}
